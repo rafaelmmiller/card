@@ -10,37 +10,35 @@ const options = {
   padding: 1,
   margin: 2,
   borderStyle: "double",
-  borderColor: "#F20089",
+  borderColor: "#4AF626",
 };
 
 const data = {
-  logo: chalk.white(`     __ _____ 
-  __|  |     |
- |  |  |  |  |
- |_____|_____|
-  _____ _____ 
- |   __|   __|
- |__   |   __|
- |_____|_____|`),
-  name: chalk.white(" Joselito /"),
+  logo: chalk.white(`     8888888b.            .d888                  888      888b     d888 d8b 888 888                  
+  888   Y88b          d88P"                   888      8888b   d8888 Y8P 888 888                  
+  888    888          888                     888      88888b.d88888     888 888                  
+  888   d88P  8888b.  888888 8888b.   .d88b.  888      888Y88888P888 888 888 888  .d88b.  888d888 
+  8888888P"      "88b 888       "88b d8P  Y8b 888      888 Y888P 888 888 888 888 d8P  Y8b 888P"   
+  888 T88b   .d888888 888   .d888888 88888888 888      888  Y8P  888 888 888 888 88888888 888     
+  888  T88b  888  888 888   888  888 Y8b.     888      888   "   888 888 888 888 Y8b.     888     
+  888   T88b "Y888888 888   "Y888888  "Y8888  888      888       888 888 888 888  "Y8888  888      `),
+  name: chalk.white(" Rafael Miller /"),
   mail: {
-    en: chalk.hex("#F20089")("hey@joseli.to"),
-    pt: chalk.hex("#F20089")("oi@joseli.to"),
+    en: chalk.hex("#4AF626")("me@rafaelmiller.com"),
+    pt: chalk.hex("#4AF626")("eu@rafaelmiller.com"),
   },
   pronoun: {
     en: chalk.white("(he/him/his)"),
     pt: chalk.white("(ele/dele)"),
   },
   work: {
-    en: chalk.white("Tech Lead @ StoneCo"),
-    pt: chalk.white("Tech Lead / Stone Pagamentos"),
+    en: chalk.white("CTO @ FRST"),
+    pt: chalk.white("CTO / FRST - Falconi Road of Skills and Talents"),
   },
-  twitter: chalk.hex("#F20089")("https://twitter.com/breakzplatform"),
-  github: chalk.hex("#F20089")("https://github.com/breakzplatform"),
-  unsplash: chalk.hex("#F20089")("https://unsplash.com/@breakzplatform"),
-  picpay: chalk.hex("#F20089")("https://picpay.me/joselitojunior"),
-  web: chalk.hex("#F20089")("https://joseli.to"),
-  npx: chalk.white("npx joselito"),
+  twitter: chalk.hex("#4AF626")("https://twitter.com/rafaelmmiller"),
+  github: chalk.hex("#4AF626")("https://github.com/rafaelmmiller"),
+  web: chalk.hex("#4AF626")("https://rafaelmiller.com"),
+  npx: chalk.white("npx rafaelmiller"),
 };
 
 const defaultLabel = {
@@ -48,8 +46,6 @@ const defaultLabel = {
     work: chalk.white.bold("      Work:"),
     twitter: chalk.white.bold("   Twitter:"),
     github: chalk.white.bold("    GitHub:"),
-    picpay: chalk.white.bold("    PicPay:"),
-    unsplash: chalk.white.bold("  Unsplash:"),
     web: chalk.white.bold("       Web:"),
     npx: chalk.white.bold("      Card:"),
   },

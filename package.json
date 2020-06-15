@@ -1,14 +1,14 @@
 {
   "name": "joselito",
   "version": "1.1.2",
-  "description": "A personal card for Joselito (@breakzplatform)",
+  "description": "A personal card for Rafael Miller",
   "main": "index.js",
   "bin": {
     "joselito": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/breakzplatform/card.git"
+    "url": "git+https://github.com/rafaelmmiller/card.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,6 @@
   "bugs": {
     "url": "https://github.com/breakzplatform/card/issues"
   },
-  "homepage": "https://github.com/breakzplatform/card#readme",
-  "author": "Joselito <hello@joseli.to> (http://joseli.to)"
+  "homepage": "https://github.com/rafaelmmiller/card#readme",
+  "author": "Rafael Miller <eu@rafaelmiller.com>  (https://rafaelmiller.com) fork Joselito <hello@joseli.to> (http://joseli.to)"
 }
