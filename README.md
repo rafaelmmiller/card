@@ -1,4 +1,4 @@
-My own npm business card.
+My own npm business card
 
 # Usage
 Via npx:
